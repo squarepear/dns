@@ -18,3 +18,9 @@ zones:
       - config
     targets:
       - cloudflare
+
+  squarel.ink.:
+    sources:
+      - config
+    targets:
+      - cloudflare

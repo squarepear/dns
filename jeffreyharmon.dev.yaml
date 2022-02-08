@@ -1,0 +1,44 @@
+---
+'':
+  - octodns:
+      cloudflare:
+        proxied: true
+    ttl: 120
+    type: ALIAS
+    value: apex-loadbalancer.netlify.com.
+
+  - ttl: 120
+    type: MX
+    values:
+      - exchange: mx01.mail.icloud.com.
+        preference: 1
+      - exchange: mx02.mail.icloud.com.
+        preference: 1
+
+  - ttl: 120
+    type: TXT
+    values:
+      - apple-domain=EBkbuGrqRk9PpH4r
+      - v=spf1 redirect=icloud.com
+      - brave-ledger-verification=fe0b25c177473ab519615ad6a6e0eeca89483678c4e0f29fe3f61c59531e876e
+
+'pw':
+  octodns:
+    cloudflare:
+      proxied: true
+  ttl: 120
+  type: CNAME
+  value: transparent-potatoe-xwksy0m2d2tm2k1n2gqy4fci.herokudns.com.
+
+'sig1._domainkey':
+  ttl: 120
+  type: CNAME
+  value: sig1.dkim.jeffreyharmon.dev.at.icloudmailadmin.com.
+
+'www':
+  octodns:
+    cloudflare:
+      proxied: true
+  ttl: 120
+  type: CNAME
+  value: jeffreyharmon.netlify.app.

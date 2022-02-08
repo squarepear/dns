@@ -13,3 +13,8 @@ providers:
     token: env/CLOUDFLARE_TOKEN
 
 zones:
+  jeffreyharmon.dev.:
+    sources:
+      - config
+    targets:
+      - cloudflare

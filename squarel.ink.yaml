@@ -3,7 +3,6 @@
   octodns:
     cloudflare:
       proxied: true
-  ttl: 120
   type: ALIAS
   value: apex-loadbalancer.netlify.com.
 
@@ -11,6 +10,5 @@
   octodns:
     cloudflare:
       proxied: true
-  ttl: 120
   type: CNAME
   value: squarelink.netlify.app.

@@ -1,0 +1,29 @@
+---
+'':
+  - octodns:
+      cloudflare:
+        proxied: true
+    type: ALIAS
+    value: apex-loadbalancer.netlify.com.
+
+
+'_minecraft._tcp.vanillapp':
+  ttl: 600
+  type: SRV
+  value:
+    port: 25555
+    priority: 0
+    target: vanillapp.jeffreyharmon.dev.
+    weight: 5
+
+'vanillapp':
+  ttl: 1
+  type: A
+  value: 100.116.153.120
+
+'www':
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: jeffreyharmon.netlify.app.

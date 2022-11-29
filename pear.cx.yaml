@@ -16,6 +16,13 @@
     target: vanillapp.jeffreyharmon.dev.
     weight: 5
 
+'urg':
+  octodns:
+    cloudflare:
+      proxied: true
+  type: CNAME
+  value: untitled-resource-game.netlify.app.
+
 'vanillapp':
   ttl: 1
   type: A

@@ -19,13 +19,13 @@
       - v=spf1 redirect=icloud.com
       - brave-ledger-verification=fe0b25c177473ab519615ad6a6e0eeca89483678c4e0f29fe3f61c59531e876e
 
-'_minecraft._tcp.vanillapp':
+'_minecraft._tcp.vpp':
   ttl: 600
   type: SRV
   value:
     port: 25555
     priority: 12
-    target: vanillapp.jeffreyharmon.dev.
+    target: vpp.jeffreyharmon.dev.
     weight: 20
 
 'pw':
@@ -39,7 +39,7 @@
   type: CNAME
   value: sig1.dkim.jeffreyharmon.dev.at.icloudmailadmin.com.
 
-'vanillapp':
+'vpp':
   ttl: 1
   type: A
   value: 100.116.153.120

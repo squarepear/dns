@@ -7,13 +7,13 @@
     value: apex-loadbalancer.netlify.com.
 
 
-'_minecraft._tcp.vanillapp':
+'_minecraft._tcp.vpp':
   ttl: 600
   type: SRV
   value:
     port: 25555
     priority: 0
-    target: vanillapp.jeffreyharmon.dev.
+    target: vpp.jeffreyharmon.dev.
     weight: 5
 
 'urg':
@@ -23,7 +23,7 @@
   type: CNAME
   value: untitled-resource-game.netlify.app.
 
-'vanillapp':
+'vpp':
   ttl: 1
   type: A
   value: 100.116.153.120

@@ -13,7 +13,7 @@
   value:
     port: 25555
     priority: 0
-    target: vpp.jeffreyharmon.dev.
+    target: vpp.pear.cx.
     weight: 5
 
 'urg':

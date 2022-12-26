@@ -26,7 +26,7 @@
 'vpp':
   ttl: 1
   type: A
-  value: 68.51.115.234
+  value: 150.136.176.253
 
 'www':
   octodns:

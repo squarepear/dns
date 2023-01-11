@@ -24,9 +24,12 @@
   value: untitled-resource-game.netlify.app.
 
 'vpp':
-  ttl: 1
-  type: A
-  value: 150.136.176.253
+  - ttl: 1
+    type: A
+    value: 150.136.176.253
+  - ttl: 1
+    type: AAAA
+    value: 2603:c020:400f:5885:220a:70b2:e66f:1427
 
 'www':
   octodns:

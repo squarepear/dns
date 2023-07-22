@@ -7,13 +7,13 @@
     value: apex-loadbalancer.netlify.com.
 
 
-'_minecraft._tcp.vpp':
+'_minecraft._tcp.mc':
   ttl: 600
   type: SRV
   value:
     port: 25555
     priority: 0
-    target: vpp.pear.cx.
+    target: mc.pear.cx.
     weight: 5
 
 'urg':
@@ -23,7 +23,7 @@
   type: CNAME
   value: untitled-resource-game.netlify.app.
 
-'vpp':
+'mc':
   - ttl: 1
     type: A
     value: 150.136.176.253

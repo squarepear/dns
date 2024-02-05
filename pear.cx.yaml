@@ -19,6 +19,11 @@
     target: mc.pear.cx.
     weight: 5
 
+
+'free-my-financials':
+    type: CNAME
+    value: dnjaotynwjaqg.cloudfront.net.
+
 'mc':
   - ttl: 1
     type: A

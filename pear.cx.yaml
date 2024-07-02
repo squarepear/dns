@@ -23,6 +23,14 @@
     target: mc.pear.cx.
     weight: 5
 
+'hl':
+  - ttl: 600
+    type: A
+    value: 100.69.116.34
+  - ttl: 600
+    type: AAAA
+    value: fd7a:115c:a1e0::1701:7422
+
 'mc':
   - ttl: 1
     type: A

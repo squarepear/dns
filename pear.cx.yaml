@@ -6,9 +6,13 @@
     type: ALIAS
     value: apex-loadbalancer.netlify.com.
 
-'_0383830490659749a14fb87b8d4b4af7.free-my-financials.pear.cx':
-  - type: CNAME
-    value: _cbfa0a83ef11bd1650d8c2b1dcffe00a.mhbtsbpdnt.acm-validations.aws.
+'*.hl.pear.cx':
+  - ttl: 600
+    type: A
+    value: 100.69.116.34
+  - ttl: 600
+    type: AAAA
+    value: fd7a:115c:a1e0::1701:7422
 
 '_minecraft._tcp.mc':
   ttl: 600
@@ -18,11 +22,6 @@
     priority: 0
     target: mc.pear.cx.
     weight: 5
-
-
-'free-my-financials':
-    type: CNAME
-    value: dnjaotynwjaqg.cloudfront.net.
 
 'mc':
   - ttl: 1

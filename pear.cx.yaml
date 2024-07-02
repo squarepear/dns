@@ -6,7 +6,7 @@
     type: ALIAS
     value: apex-loadbalancer.netlify.com.
 
-'*.hl.pear.cx':
+'*.hl':
   - ttl: 600
     type: A
     value: 100.69.116.34

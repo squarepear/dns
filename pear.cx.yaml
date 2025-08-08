@@ -1,12 +1,12 @@
 ---
-'':
+"":
   - octodns:
       cloudflare:
         proxied: true
     type: ALIAS
     value: apex-loadbalancer.netlify.com.
 
-'*.hl':
+"*.hl":
   - ttl: 600
     type: A
     value: 100.69.116.34
@@ -14,7 +14,7 @@
     type: AAAA
     value: fd7a:115c:a1e0::1701:7422
 
-'_minecraft._tcp.mc':
+"_minecraft._tcp.mc":
   ttl: 600
   type: SRV
   value:
@@ -23,7 +23,7 @@
     target: mc.pear.cx.
     weight: 5
 
-'hl':
+"hl":
   - ttl: 600
     type: A
     value: 100.69.116.34
@@ -31,7 +31,7 @@
     type: AAAA
     value: fd7a:115c:a1e0::1701:7422
 
-'mc':
+"mc":
   - ttl: 1
     type: A
     value: 150.136.176.253
@@ -39,16 +39,9 @@
     type: AAAA
     value: 2603:c020:400f:5885:220a:70b2:e66f:1427
 
-'urg':
+"urg":
   octodns:
     cloudflare:
       proxied: true
   type: CNAME
   value: untitled-resource-game.netlify.app.
-
-'www':
-  octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: jeffreyharmon.netlify.app.

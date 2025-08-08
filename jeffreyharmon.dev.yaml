@@ -1,10 +1,10 @@
 ---
-'':
+"":
   - octodns:
       cloudflare:
         proxied: true
     type: ALIAS
-    value: apex-loadbalancer.netlify.com.
+    value: squarepear.github.io.
 
   - type: MX
     values:
@@ -19,20 +19,13 @@
       - v=spf1 redirect=icloud.com
       - brave-ledger-verification=fe0b25c177473ab519615ad6a6e0eeca89483678c4e0f29fe3f61c59531e876e
 
-'pw':
-  octodns:
-    cloudflare:
-      proxied: true
-  type: CNAME
-  value: transparent-potatoe-xwksy0m2d2tm2k1n2gqy4fci.herokudns.com.
-
-'sig1._domainkey':
+"sig1._domainkey":
   type: CNAME
   value: sig1.dkim.jeffreyharmon.dev.at.icloudmailadmin.com.
 
-'www':
+"www":
   octodns:
     cloudflare:
       proxied: true
   type: CNAME
-  value: jeffreyharmon.netlify.app.
+  value: squarepear.github.io.

@@ -1,6 +1,6 @@
 name: test
 
-on: ['push', 'pull_request']
+on: ["push", "pull_request"]
 
 jobs:
   octodns:
@@ -9,9 +9,9 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v1
         with:
-          python-version: '3'
+          python-version: "3"
       - name: Install OctoDNS
-        run: pip install 'octodns==0.9.14' octodns_cloudflare
+        run: pip install 'octodns==1.13.0' octodns_cloudflare
       - name: Do a dry run
         run: ./bin/dry-run
         env:

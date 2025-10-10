@@ -16,8 +16,12 @@
   - type: TXT
     values:
       - apple-domain=EBkbuGrqRk9PpH4r
-      - v=spf1 redirect=icloud.com
-      - brave-ledger-verification=fe0b25c177473ab519615ad6a6e0eeca89483678c4e0f29fe3f61c59531e876e
+      - v=spf1 include:icloud.com ~all
+
+"_dmarc":
+  ttl: 300
+  type: TXT
+  value: v=DMARC1\; p=reject\; rua=mailto:dmarc-reports@jeffreyharmon.dev\; ruf=mailto:dmarc-reports@jeffreyharmon.dev\; pct=100
 
 "sig1._domainkey":
   type: CNAME

@@ -3,8 +3,15 @@
   - octodns:
       cloudflare:
         proxied: true
-    type: ALIAS
-    value: apex-loadbalancer.netlify.com.
+    ttl: 600
+    type: A
+    value: 192.0.2.1
+  - octodns:
+      cloudflare:
+        proxied: true
+    ttl: 600
+    type: AAAA
+    value: "100::"
     
 "*":
   - octodns:
